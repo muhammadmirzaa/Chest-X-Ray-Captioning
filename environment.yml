@@ -1,0 +1,16 @@
+name: chexpert
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - streamlit
+  - torch
+  - transformers
+  - pandas
+  - numpy
+  - pillow
+  - timm
+  - pip
+  - pip:
+    - google-cloud-sdk
+
